@@ -38,6 +38,11 @@ body{
 .wrapper input:focus{
     border-bottom: 2px solid #201d2e;
 }
+.wrapper input::placeholder{
+    font-size: 18px;
+    font-weight: 600;
+    color: #201d2e38;
+}
 .wrapper button{
     width: 50px;
     height: 50px;
