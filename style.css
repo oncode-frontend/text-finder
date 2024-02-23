@@ -60,9 +60,6 @@ body{
 .wrapper button:hover i{
     color: #eee;
 }
-/* .wrapper button i:hover{
-    color: #eee;
-} */
 .container p{
     line-height: 35px;
     text-align: justify;
