@@ -42,12 +42,27 @@ body{
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    background-color: #201d2e;
+    background-color: #eee;
     border: none;
     outline: none;
     cursor: pointer;
     color: #ffffff;
+    transition: 0.2s;
 }
+.wrapper button i{
+    font-size: 22px;
+    color: #201d2e86;
+    transition: 0.2s;
+}
+.wrapper button:hover{
+    background-color: #201d2e86;
+}
+.wrapper button:hover i{
+    color: #eee;
+}
+/* .wrapper button i:hover{
+    color: #eee;
+} */
 .container p{
     line-height: 35px;
     text-align: justify;
